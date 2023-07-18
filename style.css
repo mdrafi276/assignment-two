@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.nav-container{
+    /* border: 1px solid orange; */
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 70px;
+
+}
+ .header-div-one{
+display: flex;
+align-items: center;
+
+
+ }
+ .nav-logo{
+    height: 25px;
+ }
+ .menu{
+    display: flex;
+    align-items: center;
+gap: 20px;    
+ }
+ .button-container{
+    display: flex;
+    align-items: center
+    ;justify-content: space-around;
+    margin-left: 40px;
+    font-size: 10px;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+ }
+ .youtube{
+    font-size: 15px;
+ }
+ .tiktok{
+    font-size: 15px;
+ }
+   
+   .container-h1{
+    padding-left: 10px;
+   }
+   .nav-span{
+    color: orange;
+   }
+
+
+
+   @media screen and ( max-width:400px) {
+    .nav-container{
+    flex-direction: column;
+    height: 100%;  
+   }
+   .header-div-one{
+      padding-left: 130px;
+      padding-top: 50px ;
+    padding-bottom: 30px;
+}
+.button-container{
+
+ 
+/* width: 100%; */
+margin-right: 30px;
+        
+   }
+   .header-div-one{
+    
+   }
+   .menu{
+    flex-direction: column;
+   }
+}
