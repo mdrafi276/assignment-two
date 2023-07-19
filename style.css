@@ -211,10 +211,159 @@ font-size: 15px;
    /* this is section  end twoldf */
    .section-three{
       display: flex;
+      justify-content: space-around;
+      margin-top: 80px;
+   
    }
+   .online-container{
+      padding-top: 150px;
+   }
+   .png-one{
+      width: 450px;
+      ;
+   }
+   .png-two{
+      width: 200px;
+      position: relative;  
+      top: -150px;
+      left: 350px;
+   }
+   .online-h1{
+      font-size: 35px;
+      
+   }
+   .online-span-one{
+      color: rgb(255, 66, 208);
+   }
+   .online-span-two{
+      color: rgb(202, 22, 202);
+   }
+   .online-p{
+      font-size: 13px;
+      padding-top: 20px;
+   }
+   /* this is section four */
+.section-four{
+   background-color: rgb(255, 243, 248);
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   
+}
+
+ .action-h1{
+   font-size: 20px;
+ }
+ .action-div{
+   display: flex;
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
+border-radius: 50px;
+ }
+ .adventure{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   padding: 10px 20px;
+border-radius: 50px;
+ }
+ .adventure-h1{
+   font-size: 20px;
+   background-color: #fff;
+ }
+ .Arcade{
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
+   height: 50px;
+border-radius: 50px;
+
+ }
+ .Arcade-h1{
+   font-size: 20px;
+   background-color: #fff;
+   
+ }
+ .Educational{
+   display: flex;
+   align-items: center;
+   
+   padding: 10px 20px;
+   height: 50px;
+border-radius: 50px;
+ }
+ .Educational-h1{
+   font-size: 20px;
+   background-color: #fff;
+ }
+.Word{
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
 
 
+   height: 50px;
+border-radius: 50px;
 
+}
+.Word-h1{
+   font-size: 20px;
+   background-color: #fff;
+
+}
+.Role{
+   display: flex;
+   align-items: center  ;
+   height: 50px;
+border-radius: 50px;
+padding: 10px 20px;
+
+}
+.Role-h1{
+   font-size: 20px;
+   background-color: #fff;
+
+}
+.Music{
+   display: flex;
+   align-items: center;   padding: 10px 20px;
+
+   height: 50px;
+border-radius: 50px;
+
+}
+.Music-h1{
+   font-size: 20px;
+   background-color: #fff;
+}
+.Puzzle{
+   display: flex;   padding: 10px 20px;
+
+   height: 50px;
+border-radius: 50px;
+   align-items: center;
+
+}
+.Puzzle-h1{
+   font-size: 20px;
+   background-color: #fff;
+
+}
+.Strategy{
+   display: flex;
+   align-items: center;
+   height: 50px;
+border-radius: 50px;   padding: 10px 20px;
+
+
+}
+.Strategy-h1{
+   font-size: 20px;
+   background-color: #fff;
+}
+
+/* mobile divice  */
 
    @media screen and ( max-width:400px) {
     .nav-container{
@@ -244,4 +393,6 @@ margin-right: 30px;
    .in-container{
       width: auto;
    } 
+   .section-two{
+      flex-direction: column;
 }
