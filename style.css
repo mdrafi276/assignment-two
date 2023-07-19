@@ -245,13 +245,26 @@ font-size: 15px;
    /* this is section four */
 .section-four{
    background-color: rgb(255, 243, 248);
-   display: grid;
-   grid-template-columns: repeat(5,1fr);
-   
+   height: 300px;
+
+
+}
+.first-game-container{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   padding-top: 70px;
+
+}
+.second-game-container{
+   display: flex;
+   padding-top: 20px;
+   justify-content: center;
+   gap: 30px;
 }
 
  .action-h1{
-   font-size: 20px;
+   font-size: 15px;
  }
  .action-div{
    display: flex;
@@ -263,105 +276,189 @@ border-radius: 50px;
  }
  .adventure{
    display: flex;
-   align-items: center;
+   align-items: center;padding: 10px 20px;
+   background-color: #ffffff;
+   width: 200px;
    height: 50px;
-   padding: 10px 20px;
-border-radius: 50px;
+   border-radius: 50px;
  }
  .adventure-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
  }
  .Arcade{
+ 
    display: flex;
-   align-items: center;
-   padding: 10px 20px;
-   height: 50px;
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
 border-radius: 50px;
-
  }
  .Arcade-h1{
    font-size: 20px;
-   background-color: #fff;
+   background-color:white;
    
  }
  .Educational{
    display: flex;
-   align-items: center;
-   
-   padding: 10px 20px;
+   align-items: center;padding: 10px 20px;
+   background-color: #ffffff;
+   width: 200px;
    height: 50px;
-border-radius: 50px;
+   border-radius: 50px;
  }
  .Educational-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
  }
 .Word{
    display: flex;
-   align-items: center;
-   padding: 10px 20px;
-
-
-   height: 50px;
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
 border-radius: 50px;
-
 }
 .Word-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
 
 }
 .Role{
    display: flex;
-   align-items: center  ;
+   align-items: center;padding: 10px 20px;
+   background-color: #ffffff;
+   width: 200px;
    height: 50px;
-border-radius: 50px;
-padding: 10px 20px;
+   border-radius: 50px;
 
 }
 .Role-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
 
 }
 .Music{
+ 
    display: flex;
-   align-items: center;   padding: 10px 20px;
-
-   height: 50px;
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
 border-radius: 50px;
-
 }
 .Music-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
 }
 .Puzzle{
-   display: flex;   padding: 10px 20px;
-
-   height: 50px;
+ 
+   display: flex;
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
 border-radius: 50px;
-   align-items: center;
-
 }
 .Puzzle-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
 
 }
 .Strategy{
+ 
    display: flex;
-   align-items: center;
-   height: 50px;
-border-radius: 50px;   padding: 10px 20px;
-
+align-items: center;padding: 10px 20px;
+background-color: #ffffff;
+width: 200px;
+height: 50px;
+border-radius: 50px;
 
 }
 .Strategy-h1{
-   font-size: 20px;
+   font-size: 15px;
    background-color: #fff;
 }
+                                 /* hover */
+   .action-div:hover{
+      color: #F948B2;
+      border:1px solid #F948B2;
+      cursor: pointer;
+   }
+   .adventure:hover{
+      color: #F948B2;
+      border:1px solid #F948B2;
+      cursor: pointer;
+   }
+.Arcade:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Educational:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Word:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Role:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Music:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Puzzle:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+.Strategy:hover{
+   color: #F948B2;
+   border:1px solid #F948B2;
+   cursor: pointer;
+}
+                       /* this is footer-sectio   */
+.footer-span{
+   color: #f7129b;
+}
+.footer-div-one{
+   display: flex;
+   justify-content: center;
+   padding-top: 100px;
+}
+.footer-img{
+   height: 30px;
+   ;
+}
+.footer-container{
+   height: 500px;
+   background-color: rgb(3, 1, 20);
+}
+.footer-h1{
+   color: #ffffff;
+}
+.lol-div{
+   list-style: none;
+   color: #a5d7ff;
+   display: flex;
+   gap: 30px;
+   justify-content: center;
+   padding-top: 40px;
+   
+}
+
+
+
+
 
 /* mobile divice  */
 
@@ -396,3 +493,4 @@ margin-right: 30px;
    .section-two{
       flex-direction: column;
 }
+   }
