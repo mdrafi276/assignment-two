@@ -441,7 +441,7 @@ border-radius: 50px;
 }
 .footer-container{
    height: 500px;
-   background-color: rgb(3, 1, 20);
+   background-color:#0c0120;
 }
 .footer-h1{
    color: #ffffff;
@@ -456,8 +456,35 @@ border-radius: 50px;
    
 }
 
-
-
+.small-div{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   gap: 40px;
+   padding-top: 30px;
+   cursor: pointer;
+}
+.lok-li{
+   color: white;
+   font-size: 30px;
+}
+.solo-div{
+ color: #2a2b75;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ padding-top: 30px;
+}
+.solo-li{
+   font-size: 13px;
+}
+.solo-h2{
+   text-align: center;
+   padding-top: 30px;
+   font-size: 13px;
+   color: #4a4a77;
+}
 
 
 /* mobile divice  */
