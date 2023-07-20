@@ -509,6 +509,7 @@ border-radius: 50px;
 .nav-container{
    height: 300px;
    box-shadow: none;
+   width: auto;
 }
 .button-container{
 margin-right: 30px;
@@ -524,6 +525,7 @@ margin-right: 30px;
    .banner-section{
    
 flex-direction: column;
+width: auto;
    }
    
    .section-two{
@@ -533,6 +535,7 @@ flex-direction: column;
 }
 .section-three{
    flex-direction: column;
+   width: auto;
    
 }
 .first-game-container{
@@ -552,7 +555,7 @@ width: ;
  }
 .footer-container{
    margin-top: 50px;
-   width: ;
+   width:auto;
    margin-right: 0px;
 }
 .game-span-container{
