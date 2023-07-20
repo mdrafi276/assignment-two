@@ -489,35 +489,60 @@ border-radius: 50px;
 
 /* mobile divice  */
 
-   @media screen and ( max-width:400px) {
+   @media screen and ( max-width:576px) {
     .nav-container{
     flex-direction: column;
-    height: 100%;  
+     
    }
    .header-div-one{
-      padding-left: 130px;
-      padding-top: 50px ;
-    padding-bottom: 30px;
+       margin-top: 30px;
+       font-size: 20px;
+       padding-left: 200px;
+       
+       
+
+}
+
+.nav-container{
+   height: 300px;
+   box-shadow: none;
 }
 .button-container{
 
  
-/* width: 100%; */
+
 margin-right: 30px;
         
    }
    
    .menu{
     flex-direction: column;
+    
+    
+    
    }
    .banner-section{
-      flex-direction: column;
-
+   
+flex-direction: column;
    }
    .in-container{
-      width: auto;
+      
+   
    } 
    .section-two{
       flex-direction: column;
+      height: auto;
+      
+}
+.section-three{
+   flex-direction: column;
+}
+.first-game-container{
+
+
+}
+.second-game-container{
+   
+   
 }
    }
