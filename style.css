@@ -498,6 +498,7 @@ border-radius: 50px;
        margin-top: 30px;
        font-size: 20px;
        padding-left: 200px;
+       width: 40%;
        
        
 
@@ -525,10 +526,7 @@ margin-right: 30px;
    
 flex-direction: column;
    }
-   .in-container{
-      
    
-   } 
    .section-two{
       flex-direction: column;
       height: auto;
@@ -538,11 +536,22 @@ flex-direction: column;
    flex-direction: column;
 }
 .first-game-container{
-
+display: grid;
+grid-template-columns: repeat(2,1fr );
+height: auto;
 
 }
 .second-game-container{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   height: auto;
    
    
+}
+.footer-container{
+   margin-top: 300px;
+}
+.game-span-container{
+   visibility: hidden;
 }
    }
