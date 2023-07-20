@@ -487,6 +487,8 @@ border-radius: 50px;
 }
 
 
+
+
 /* mobile divice  */
 
    @media screen and ( max-width:576px) {
@@ -509,9 +511,6 @@ border-radius: 50px;
    box-shadow: none;
 }
 .button-container{
-
- 
-
 margin-right: 30px;
         
    }
@@ -534,24 +533,51 @@ flex-direction: column;
 }
 .section-three{
    flex-direction: column;
+   
 }
 .first-game-container{
 display: grid;
 grid-template-columns: repeat(2,1fr );
 height: auto;
+margin-right: 0px;
+width: ;
 
 }
 .second-game-container{
    display: grid;
    grid-template-columns: repeat(2,1fr);
    height: auto;
+    
    
-   
-}
+ }
 .footer-container{
-   margin-top: 300px;
+   margin-top: 50px;
+   width: ;
+   margin-right: 0px;
 }
 .game-span-container{
    visibility: hidden;
 }
+
+.section-four{
+   height: 100%;
+}
+.small-div{
+   display: grid; 
+   grid-template-columns: repeat(3,1fr);
+   text-align: center;
+
+   
+}
+.lol-div{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   text-align: center;
+
+   
+}
+.section-two{
+
+} 
+
    }
